@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  backend:
+    image: dto80/234-lab11
+    ports:
+      - "8084:80"
+  frontend:
+    image: suraditluo/pict
+    ports:
+      -"8085:80"
